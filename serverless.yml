@@ -8,7 +8,7 @@ provider:
   region: us-east-1
 
 functions:
-  hello:
+  generateRandomNumber:
     handler: src/handler.generateRandomNumber
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
